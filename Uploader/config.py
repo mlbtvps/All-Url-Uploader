@@ -65,7 +65,7 @@ class Config(object):
 
     LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", -1001705637043))
     OWNER_ID = int(os.environ.get("OWNER_ID", "5468192421"))
-    BOT_USERNAME = os.environ.get("BOT_USERNAME", "@NyiAnydlBot")
+    BOT_USERNAME = os.environ.get("BOT_USERNAME", "NyiAnydlBot")
     ADL_BOT_RQ = {}
     AUTH_USERS = list({int(x)
                       for x in os.environ.get("AUTH_USERS", "0").split()})
